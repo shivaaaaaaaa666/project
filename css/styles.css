@@ -1,0 +1,119 @@
+  .btn {
+  background: #1ED0D0;
+  background-image: -webkit-linear-gradient(top, #1ED0D0, #E3E3E3);
+  background-image: -moz-linear-gradient(top, #1ED0D0, #E3E3E3);
+  background-image: -ms-linear-gradient(top, #1ED0D0, #E3E3E3);
+  background-image: -o-linear-gradient(top, #1ED0D0, #E3E3E3);
+  background-image: -webkit-gradient(to bottom, #1ED0D0, #E3E3E3);
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  height: 50px;
+  line-height: 50px;
+  color: #FDFFFD;
+  font-family: 'Kirang Haerang', Merriweather, sans-serif;
+  width: 200px;
+  font-size: 22px;
+  font-weight: 100;
+  padding: 0;
+  -webkit-box-shadow: 4px 0 18px 2px #031600;
+  -moz-box-shadow: 4px 0 18px 2px #031600;
+  box-shadow: 4px 0 18px 2px #031600;
+  text-shadow: 1px 1px 20px #7477B5;
+  border: solid #8A33ED 1px;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+}
+
+.btn:hover {
+  border: solid #90D6D6 4px;
+  background: #84B6B3;
+  background-image: -webkit-linear-gradient(top, #84B6B3, #3D94F6);
+  background-image: -moz-linear-gradient(top, #84B6B3, #3D94F6);
+  background-image: -ms-linear-gradient(top, #84B6B3, #3D94F6);
+  background-image: -o-linear-gradient(top, #84B6B3, #3D94F6);
+  background-image: -webkit-gradient(to bottom, #84B6B3, #3D94F6);
+  -webkit-border-radius: 36px;
+  -moz-border-radius: 36px;
+  border-radius: 36px;
+  text-decoration: none;
+}
+body{
+  background-color: #cdfffc;
+}
+h2{
+  text-align: center;
+  color: #fff;
+  padding-top: 20px;
+  font-family: "Montserrat-Bold",sans-serif;
+
+}
+h3{font-family: "Montserrat",sans-serif;
+  font-weight: bold;
+  margin-left: 50px;
+  font-size: 2rem;
+}
+.side-headers{
+  width:120px;
+  font-weight: bold;
+
+}
+.employee-button{
+  text-align: center;
+
+}
+@media (max-width:1008px) {
+  .employee-button{
+    text-align: center;
+  }
+
+  .email-class{
+    width: auto;
+  }
+
+}
+.watermelon{
+  background-color:#00587a;
+  height:45px;
+
+  margin-top: -10px;
+  padding-bottom: 20px;
+}
+.fixed-header {
+  display: inline-block;
+  height: 150px;
+  overflow: auto;
+}
+
+#tasksTable th {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+font-family: "Montserrat",sans-serif;
+font-weight: bold;
+
+}
+.modal-footer{
+  margin-left: 300px;
+  font-weight: bold;
+
+}
+.modal-body{
+  font-weight: bold;
+  font-size: 1rem;
+  text-align: center;
+
+}
+
+.email-class{
+  width: 120px;
+}
+.noName{
+  color: red;
+}
+
+/* #tasksTable {
+  border-collapse: collapse;
+} */
